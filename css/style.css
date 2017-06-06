@@ -1,11 +1,3 @@
-
-body, h1, h2, h3, h4, h5, h6, p, div {
-	margin: 0;
-	padding: 0;
-    overflow: hidden;
-    position: relative;
-}
-
 .menu {
     background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
     left: -285px;  /* start off behind the scenes */
@@ -19,6 +11,12 @@ body, h1, h2, h3, h4, h5, h6, p, div {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+#menu-icon {
+    width: 55px;
+    margin-left: -38px;
+    margin-top: -13px;
 }
 
 .menu ul li {
@@ -81,20 +79,14 @@ body {
 	margin-right: auto;
 }
 
-#divWrapper {
+#Wrapper {
 }
 
-#divHeader {
+header {
 	width : 700px;
-	background: url(Images/water.jpeg);
 	text-align: center;
 }
 
-#divHeader img {
-	padding-top:20px;
-	padding-bottom:20px;
-	
-}
 
 #divAbout {
 	width: 700px;
@@ -122,6 +114,11 @@ body {
 	-moz-box-shadow: 1px 1px 4px #000;
 	-webkit-box-shadow: 1px 1px 4px #000;
 	
+}
+
+#Logo {
+    background-color: aqua;
+    color: #ff0000;
 }
 
 #divContent > img {
