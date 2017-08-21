@@ -76,10 +76,6 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 	background-color: #0000FF;
 	margin-left: auto;
-	margin-right: auto;
-}
-
-#Wrapper {
 }
 
 header {
@@ -88,14 +84,14 @@ header {
 }
 
 
-#divAbout {
+#about {
 	width: 700px;
 	background: #333;
 	padding-top: 60px;
 	padding-bottom:60px;
 }
 
-#divContent {
+#content {
 	width: 430px;
 	margin: 0 auto;
 	background: #746161;
@@ -116,12 +112,12 @@ header {
 	
 }
 
-#Logo {
+#logo1 {
     background-color: aqua;
     color: #ff0000;
 }
 
-#divContent > img {
+#content > img {
 	float: left;
 	border: 1px solid #000;
 	background: #333;
@@ -138,7 +134,7 @@ header {
 	-webkit-border-radius: 15px;
 }
 
-#divContent > h5 {
+#content > h5 {
 	color: #FFF;
 	padding-top: 0.8em;
 	padding-bottom: 0;
@@ -146,14 +142,14 @@ header {
 	padding-right: 0;
 }
 
-#divContent > p {
+#content > p {
 	font-size: 0.7em;
 	color: #999;
 	padding: 0.7em;
 	line-height: 1.4em;
 	
 }
-#divFooter {
+#footer {
 	background: #222;
 	height: 10px;
 	width: 700px;
